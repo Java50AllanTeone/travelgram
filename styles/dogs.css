@@ -1,0 +1,84 @@
+html {
+    height: 100%
+}
+body {
+    height: 100%;
+
+    background: linear-gradient(0.25turn, #ebf8e1, royalblue, #ebf8e1);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    opacity: 50%;
+}
+
+.logo-img {
+    padding: 2vw;
+    width: 20vw;
+    height: 15vw;
+}
+.logo-title {
+    display: inline-block;
+    
+    width: 100%;
+    margin: auto;
+}
+.main-class {
+    display: flex;
+    flex-direction: column;  
+}
+.details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.details-image {
+    width: 80vw;
+    height: 60vw;
+}
+.details-title {
+    display: block;
+    background-color: aliceblue;
+}
+.thumbnails-list {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 36vh;
+    overflow-y: scroll;
+    list-style: none;
+    justify-content: space-around;
+    padding-left: 0;
+}
+.thumbnails-item {
+    margin-top: 2vh;
+
+    border-radius: 35%;
+    border: hidden;
+
+    overflow: hidden;
+}
+.thumbnails-anchor {
+    text-decoration: none;
+
+}
+.thumbnails-image {
+    display: block;
+    
+    width: 27vw;
+    height: 16vw; 
+}
+.thumbnails-title {
+    display: block;
+    text-align: center;
+    background: linear-gradient(0.25turn, #ebf8e1, royalblue, #ebf8e1);
+    font-size: 0.7em;
+    font-weight: bold;
+}
