@@ -24,7 +24,7 @@ body {
 
     --details-image-width: 80vw;
     --details-image-height: calc(var(--details-image-width) / 1.33);
-    --details-title-font: calc(var(--thumbnails-title-font) * 1.5);
+    --details-title-font: calc(var(--thumbnails-title-font) * 2.5);
 
     --thumbnails-image-width: 27vw;
     --thumbnails-image-height: calc(var(--thumbnails-image-width) / 1.68);
@@ -101,10 +101,10 @@ body {
     bottom: 1vw;
     left: -3.5vw;
 
-    opacity: 25%;
+    opacity: 45%;
     font-weight: bold;
+    font-family: airstream;
     font-size: var(--details-title-font);
-
 }
 
 .thumbnails-list {
@@ -205,7 +205,7 @@ body {
 @media (min-width: 1000px) {
 
     body {
-        --details-title-font: calc(var(--thumbnails-title-font) * 2.5);
+        --details-title-font: calc(var(--thumbnails-title-font) * 3.5);
 
         --thumbnails-title-height: calc(var(--thumbnails-image-height) * 0.15);
         --thumbnails-title-font: 0.85em; 
