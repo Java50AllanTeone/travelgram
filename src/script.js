@@ -23,7 +23,7 @@ function showDetails() {
     }, 0.1);
 
     setTimeout(function() {
-        detailsContainer.classList.remove(SCALE_WIDTH);
+        detailsContainer.classList.remove(SCALE_WIDTH);     //some comment
         detailsContainer.classList.add(SCALE_HEIGHT);
     }, 300);
 
