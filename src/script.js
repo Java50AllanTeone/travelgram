@@ -70,4 +70,5 @@ for (let i = 0; i < anchors.length; i++) {
 }
 
 closeButton.addEventListener("click", hideDetails);
+//some comment
 
